@@ -10,7 +10,7 @@ const app = express();
 // -------------------- Middleware --------------------
 app.use(
   cors({
-    origin: process.env.CLIENT_ORIGIN || "*",
+    origin: "https://paddy-purchase.vercel.app",
     credentials: true,
   })
 );
